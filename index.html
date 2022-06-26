@@ -23,13 +23,17 @@
         <option value="Gdańsk">Gdańsk</option></select
       ><br /><br />
 
-      <input type="radio" name="gender" value="male" />Mężczyzna<br />
-      <input type="radio" name="gender" value="female" />Kobieta<br /><br />
-      <input type="checkbox" name="agreement" required />Zgadzam się z polityką
-      prywatności. RODO<br /><br />
+      <label><input type="radio" name="gender" value="male" />Mężczyzna</label
+      ><br />
+      <label><input type="radio" name="gender" value="female" />Kobieta</label
+      ><br /><br />
+      <label
+        ><input type="checkbox" name="agreement" required />Zgadzam się z
+        polityką prywatności. RODO</label
+      ><br /><br />
 
-      <label for="message" maxlength="500">Wiadomość:</label>
-      <textarea type="text" name="message" id="message"></textarea><br /><br />
+      <label for="message">Wiadomość:</label>
+      <textarea name="message" id="message"></textarea><br /><br />
 
       <input type="submit" value="Wyślij" />
     </form>
